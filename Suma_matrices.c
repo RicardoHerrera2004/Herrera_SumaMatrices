@@ -37,19 +37,17 @@ int main()
         }
     }
 
-    printf ("\n");
-    printf ("Suma de las matrices A y B");
+    printf("\n");
+    printf("Suma de las matrices A y B");
     for (int i = 0; i < a; i++)
     {
-        printf ("\n");
+        printf("\n");
         for (int j = 0; j < b; j++)
         {
-            matrizR[i][j]=matrizA[i][j]+matrizB[i][j];
-            printf ("%d \t", matrizR[i][j]);
+            matrizR[i][j] = matrizA[i][j] + matrizB[i][j];
+            printf("%d \t", matrizR[i][j]);
         }
-        
     }
-    
 
     return 0;
 }
